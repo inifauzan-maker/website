@@ -24,7 +24,7 @@ File dan class fitur menggunakan bahasa Indonesia. Sufiks teknis Laravel seperti
 - [x] Sembunyikan data pribadi pendaftar dan tautan pertemuan dari serialisasi model.
 - [x] Gunakan penamaan file dan class fitur dalam bahasa Indonesia.
 - [x] Jalankan formatter dan pengujian: 17 tes, 45 assertion lulus pada verifikasi terakhir.
-- [ ] Inisialisasi Git dan siapkan repositori bersama.
+- [x] Inisialisasi Git dan siapkan repositori bersama: https://github.com/inifauzan-maker/website.
 - [ ] Tetapkan aturan branch fitur, pull request, review, dan penggabungan ke `main`.
 - [ ] Bagikan `.env.example` yang sesuai tanpa kredensial; setiap anggota memakai database lokal sendiri.
 - [ ] Selesaikan masalah runtime/sandbox Codex; pemeriksaan sebelumnya menggunakan izin eksekusi tambahan.
