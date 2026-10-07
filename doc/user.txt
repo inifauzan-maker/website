@@ -1,0 +1,21 @@
+git clone <alamat-repositori>
+cd kursusgambaranak
+composer install
+Copy-Item .env.example .env
+php artisan key:generate
+npm install
+
+
+
+php artisan migrate --seed
+npm run dev
+
+
+git switch main
+git pull origin main
+git switch -c fitur/katalog-kelas
+
+# Setelah pekerjaan selesai
+git add <file-yang-diubah>
+git commit -m "Tambah katalog kelas dan filter cabang"
+git push -u origin fitur/katalog-kelas
