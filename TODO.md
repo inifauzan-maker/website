@@ -51,7 +51,7 @@ Selesaikan sebelum Tim 1 dan Tim 2 menghubungkan fitur ke data nyata.
 Dapat dikerjakan setelah desain dan kontrak fitur disepakati. Gunakan Blade dan Tailwind yang tersedia di proyek.
 
 - [ ] Buat layout bersama, navigasi, footer, tombol, kartu kelas, dan komponen formulir.
-- [ ] Buat beranda: pengenalan kursus, model belajar, cabang, dan ajakan mendaftar.
+- [x] Buat tampilan awal beranda: pengenalan kursus, model belajar, dan cabang. Ajakan saat ini mengarah ke informasi belajar; pendaftaran menunggu kelas dibuka.
 - [ ] Buat halaman program dan detail program sesuai kelompok usia.
 - [ ] Buat halaman kedua cabang dengan alamat, kontak, dan peta yang sudah dikonfirmasi.
 - [ ] Buat katalog kelas dengan filter cabang dan model belajar.

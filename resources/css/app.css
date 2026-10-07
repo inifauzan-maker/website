@@ -4,6 +4,32 @@
 @source '../../storage/framework/views/*.php';
 
 @theme {
+    --color-kertas: #f8f6ee;
+    --color-tinta: #263c30;
+    --color-hutan: #305640;
+    --color-daun: #e6ecd9;
+    --color-jingga: #b65330;
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@layer base {
+    html { scroll-behavior: smooth; }
+    [hidden] { display: none !important; }
+    a, button, summary, [tabindex] { outline-offset: 5px; }
+    :focus-visible { outline: 2px solid #b65330; }
+    button { cursor: pointer; }
+    summary::-webkit-details-marker { display: none; }
+}
+
+@layer components {
+    .label-bagian { font-size: .7rem; font-weight: 700; letter-spacing: .16em; color: #305640; }
+    .tab-belajar[aria-selected="true"] { background: #e6ecd9; color: #305640; }
+    .tab-belajar[aria-selected="false"]:hover { background: #ffffff12; }
+    .cerita::after { content: ''; display: block; height: 9px; margin-top: 2px; border-top: 3px solid #d59c5b; border-radius: 50%; transform: rotate(-3deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition-duration: 0s !important; }
 }
